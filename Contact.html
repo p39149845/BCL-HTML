@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/Bootswatch Darkly.css">
 </head>
 
 <body>
@@ -17,13 +18,13 @@
     <table style="width:100%">
         <tr>
             <th>
-                <a href="http://127.0.0.1:5500/Home.html">HOME</a>
+                <a href="Home.html">HOME</a>
             </th>
             <th>
-                <a href="http://127.0.0.1:5500/Gallery.html">GALLERY</a>
+                <a href="Gallery.html">GALLERY</a>
             </th>
             <th>
-                <a href="http://127.0.0.1:5500/Contact.html">CONTACT</a>
+                <a href="Contact.html">CONTACT</a>
             </th>
         </tr>
     </table>
@@ -63,16 +64,58 @@
             <tr>
                 <th>Email : <input type="text" name="Email"><br></th>
             </tr>
-            <tr><th><input type="submit" value="Submit"></th></tr>
+            <tr>
+                <th><input type="submit" value="Submit"></th>
+            </tr>
         </table>
     </form>
     <center>
-            Pumipat Sumritkitchareon -
-            Pumipatsumrit@gmail.com
-            - (+66)-878-99644
-        </center>
+        Pumipat Sumritkitchareon -
+        Pumipatsumrit@gmail.com
+        - (+66)-878-99644
+    </center>
 
+    <form>
+        <fieldset>
+            <legend>Contact</legend>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Subject</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="what sub-ject">
+            </div>
+            <div class="form-group">
+                    <label for="exampleInputPassword1">Name</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="kimi no nawa?">
+                </div>
+                <div class="form-group">
+                        <label for="exampleInputPassword1">Phone</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Wat's ur phone number">
+                    </div>
+            <div class="form-group">
+                <label for="exampleTextarea">Message</label>
+                <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+            </div>
+            <legend>Gender</legend>
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" value="">
+                    male
+                </label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" value="" >
+                    female
+                </label>
+            </div>
+            <div class="form-group">
+                    <label for="exampleInputPassword1">Email</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="email@example.com">
+                </div>
+        </fieldset>
+        <button type="button" class="btn btn-outline-success">Success</button>
+        </fieldset>
+    </form>
 
-
+</body>
 
 </html>
